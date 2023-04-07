@@ -1,4 +1,4 @@
-import { BrowserRouter, Routes, Route, HashRouter } from 'react-router-dom';
+import { Routes, Route, BrowserRouter } from 'react-router-dom';
 
 import Navigation from './common/Navigation/Navigation';
 import MainPage from './pages/MainPage/MainPage';
@@ -9,15 +9,16 @@ import Contact from './pages/Contact/Contact';
 function App() {
   return (
     <>
-      <HashRouter>
+      <BrowserRouter>
         <Navigation />
         <Routes>
-          <Route index path="/" element={<MainPage />} />
-          <Route path="/promienniki" element={<Promienniki />} />
-          <Route path="/myjnie" element={<Myjnie />} />
-          <Route path="/kontakt" element={<Contact />} />
+          <Route index element={<MainPage />} />
+          {/* <Route path="start" element={<MainPage />} /> */}
+          <Route path="promienniki" element={<Promienniki />} />
+          <Route path="myjnie" element={<Myjnie />} />
+          <Route path="kontakt" element={<Contact />} />
         </Routes>
-      </HashRouter>
+      </BrowserRouter>
     </>
   );
 }
