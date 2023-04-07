@@ -1,4 +1,4 @@
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { BrowserRouter, Routes, Route, HashRouter } from 'react-router-dom';
 
 import Navigation from './common/Navigation/Navigation';
 import MainPage from './pages/MainPage/MainPage';
@@ -9,7 +9,7 @@ import Contact from './pages/Contact/Contact';
 function App() {
   return (
     <>
-      <BrowserRouter>
+      <HashRouter>
         <Navigation />
         <Routes>
           <Route index path="/" element={<MainPage />} />
@@ -17,7 +17,7 @@ function App() {
           <Route path="/myjnie" element={<Myjnie />} />
           <Route path="/kontakt" element={<Contact />} />
         </Routes>
-      </BrowserRouter>
+      </HashRouter>
     </>
   );
 }
