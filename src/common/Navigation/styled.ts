@@ -1,3 +1,4 @@
+import { NavLink } from 'react-router-dom';
 import styled from 'styled-components';
 
 export const NavigationWrapper = styled.nav`
@@ -29,7 +30,13 @@ export const NavigationList = styled.ul`
   list-style-type: none;
 `;
 
-export const ListItem = styled.li`
+export const ListItem = styled(NavLink)`
   padding: 0;
   margin: 0;
+  color: ${({ theme }) => theme.color.primaryText};
+  text-decoration: none;
+
+  &.active {
+    font-weight: 600;
+  }
 `;

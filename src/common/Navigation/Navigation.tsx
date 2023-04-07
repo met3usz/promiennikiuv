@@ -10,10 +10,10 @@ const Navigation = () => {
     <NavigationWrapper>
       <NavigationTitle>Sprzedaż, Serwis, Doradztwo Techniczne</NavigationTitle>
       <NavigationList>
-        <ListItem>Start</ListItem>
-        <ListItem>Promienniki IRT</ListItem>
-        <ListItem>Myjnie DRESTER</ListItem>
-        <ListItem>Kontakt</ListItem>
+        <ListItem to="/">Start</ListItem>
+        <ListItem to="/promienniki">Promienniki IRT</ListItem>
+        <ListItem to="/myjnie">Myjnie DRESTER</ListItem>
+        <ListItem to="/kontakt">Kontakt</ListItem>
       </NavigationList>
     </NavigationWrapper>
   );
