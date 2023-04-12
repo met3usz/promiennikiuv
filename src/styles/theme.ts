@@ -6,7 +6,7 @@ const theme = {
     bgColor: '#FFFFFF',
     buttonText: '#FFFFFF',
     primaryIRT: '#ED171B',
-    primatyDrester: '#4576AF',
+    primaryDrester: '#4576AF',
     secondaryText: '#595959',
     primaryText: '#000000',
   },

@@ -5,7 +5,7 @@ import {
   NavigationWrapper,
 } from './styled';
 
-const Navigation = () => {
+export function Navigation() {
   return (
     <NavigationWrapper>
       <NavigationTitle>Sprzedaż, Serwis, Doradztwo Techniczne</NavigationTitle>
@@ -17,6 +17,4 @@ const Navigation = () => {
       </NavigationList>
     </NavigationWrapper>
   );
-};
-
-export default Navigation;
+}

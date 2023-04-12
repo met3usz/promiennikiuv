@@ -46,5 +46,6 @@ export const HeroButton = styled.button`
   outline: none;
   border: none;
   border-radius: ${({ theme }) => theme.borderRadius};
-  background-color: ${({ theme }) => theme.color.primatyDrester};
+  background-color: ${({ theme }) => theme.color.primaryDrester};
+  cursor: pointer;
 `;

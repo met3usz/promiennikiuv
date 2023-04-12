@@ -7,7 +7,7 @@ declare module 'styled-components' {
       bgColor: string;
       buttonText: string;
       primaryIRT: string;
-      primatyDrester: string;
+      primaryDrester: string;
       secondaryText: string;
       primaryText: string;
     };
