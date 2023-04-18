@@ -13,7 +13,6 @@ function App() {
         <Navigation />
         <Routes>
           <Route index element={<MainPage />} />
-          {/* <Route path="start" element={<MainPage />} /> */}
           <Route path="promienniki" element={<Promienniki />} />
           <Route path="myjnie" element={<Myjnie />} />
           <Route path="kontakt" element={<Contact />} />
