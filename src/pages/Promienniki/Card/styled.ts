@@ -1,12 +1,12 @@
 import styled from 'styled-components';
 
 export const CardWrapper = styled.div`
+  margin: 70px 0;
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
   gap: 64px;
-  margin: 70px 0;
 `;
 
 export const CardContent = styled.div`

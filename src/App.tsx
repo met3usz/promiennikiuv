@@ -8,17 +8,15 @@ import Contact from './pages/Contact/Contact';
 
 function App() {
   return (
-    <>
-      <HashRouter>
-        <Navigation />
-        <Routes>
-          <Route index element={<MainPage />} />
-          <Route path="promienniki" element={<Promienniki />} />
-          <Route path="myjnie" element={<Myjnie />} />
-          <Route path="kontakt" element={<Contact />} />
-        </Routes>
-      </HashRouter>
-    </>
+    <HashRouter>
+      <Navigation />
+      <Routes>
+        <Route index element={<MainPage />} />
+        <Route path="promienniki" element={<Promienniki />} />
+        <Route path="myjnie" element={<Myjnie />} />
+        <Route path="kontakt" element={<Contact />} />
+      </Routes>
+    </HashRouter>
   );
 }
 
