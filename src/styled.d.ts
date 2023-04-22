@@ -3,6 +3,9 @@ import 'styled-components';
 declare module 'styled-components' {
   export interface DefaultTheme {
     borderRadius: string;
+    breakpoints: {
+      mobile: string;
+    };
     color: {
       bgColor: string;
       buttonText: string;

@@ -2,6 +2,9 @@ import 'styled-components';
 
 const theme = {
   borderRadius: '5px',
+  breakpoints: {
+    mobile: '768px',
+  },
   color: {
     bgColor: '#FFFFFF',
     buttonText: '#FFFFFF',
