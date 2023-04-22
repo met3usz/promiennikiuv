@@ -9,6 +9,7 @@ const theme = {
     primaryDrester: '#4576AF',
     secondaryText: '#595959',
     primaryText: '#000000',
+    link: '#8176DE',
   },
 };
 

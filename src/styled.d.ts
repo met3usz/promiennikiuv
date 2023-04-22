@@ -10,6 +10,7 @@ declare module 'styled-components' {
       primaryDrester: string;
       secondaryText: string;
       primaryText: string;
+      link: string;
     };
   }
 }
