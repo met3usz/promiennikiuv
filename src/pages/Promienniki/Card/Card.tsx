@@ -1,12 +1,18 @@
 type CardProps = {
   img: string;
-  img2: any;
   imgAlt: string;
   title: string;
   content: string;
 };
 
-import { CardContent, CardText, CardTitle, CardWrapper } from './styled';
+import {
+  CardContent,
+  CardText,
+  CardTitle,
+  CardWrapper,
+  CardWrapperGrid,
+  CardWrapperReverse,
+} from './styled';
 
 export const CardLeft = (props: CardProps) => {
   return (
@@ -22,25 +28,12 @@ export const CardLeft = (props: CardProps) => {
 
 export const CardRight = (props: CardProps) => {
   return (
-    <CardWrapper>
+    <CardWrapperReverse>
       <CardContent>
         <CardTitle>{props.title}</CardTitle>
         <CardText>{props.content}</CardText>
       </CardContent>
       <img src={props.img} alt={props.imgAlt} />
-    </CardWrapper>
-  );
-};
-
-export const CardLeftRight = (props: CardProps) => {
-  return (
-    <CardWrapper>
-      <img src={props.img} alt={props.imgAlt} />
-      <CardContent>
-        <CardTitle>{props.title}</CardTitle>
-        <CardText>{props.content}</CardText>
-      </CardContent>
-      <img src={props.img2} alt={props.imgAlt} />
-    </CardWrapper>
+    </CardWrapperReverse>
   );
 };

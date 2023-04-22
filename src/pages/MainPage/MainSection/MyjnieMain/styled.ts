@@ -9,6 +9,10 @@ export const ContentWrapper = styled.div`
   justify-content: center;
   align-items: center;
   gap: 45px;
+
+  @media (max-width: ${({ theme }) => theme.breakpoints.L}) {
+    flex-direction: column-reverse;
+  }
 `;
 
 export const Content = styled.div`
@@ -44,6 +48,10 @@ export const MainImage = styled.img`
   width: 150%;
   max-width: 1000px;
   height: auto;
+
+  @media (max-width: ${({ theme }) => theme.breakpoints.L}) {
+    width: 80%;
+  }
 `;
 
 //Text on the right, image on the left

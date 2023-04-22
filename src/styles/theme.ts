@@ -4,6 +4,7 @@ const theme = {
   borderRadius: '5px',
   breakpoints: {
     mobile: '768px',
+    L: '992px',
   },
   color: {
     bgColor: '#FFFFFF',

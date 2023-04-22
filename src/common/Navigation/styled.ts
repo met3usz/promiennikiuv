@@ -28,6 +28,10 @@ export const NavigationList = styled.ul`
   justify-content: center;
   gap: 25px;
   list-style-type: none;
+
+  @media (max-width: ${({ theme }) => theme.breakpoints.L}) {
+    display: none;
+  }
 `;
 
 export const ListItem = styled(NavLink)`

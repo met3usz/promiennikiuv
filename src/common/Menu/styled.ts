@@ -5,7 +5,7 @@ export const StyledMenu = styled.nav<{ open: boolean }>`
   top: 0;
   right: 0;
   height: 100vh;
-  width: 35vw;
+  width: 25vw;
   position: fixed;
   background-color: lightgray;
   z-index: 0;
@@ -16,7 +16,7 @@ export const StyledMenu = styled.nav<{ open: boolean }>`
   transform: ${({ open }) => (open ? 'translateX(0)' : 'translateX(-100%)')};
 
   @media (max-width: ${({ theme }) => theme.breakpoints.mobile}) {
-    width: 100%;
+    width: 50%;
   }
 `;
 
@@ -26,7 +26,7 @@ export const StyledHamburger = styled.button<{ open: boolean }>`
   padding: 0;
   background: transparent;
 
-  display: flex;
+  display: none;
   flex-direction: column;
   justify-content: space-around;
   border: none;
@@ -38,6 +38,10 @@ export const StyledHamburger = styled.button<{ open: boolean }>`
   @media (max-width: ${({ theme }) => theme.breakpoints.mobile}) {
     left: ${({ open }) => (open ? 'initial' : '3vw')};
     right: ${({ open }) => (open ? '2vw' : 'initial')};
+  }
+
+  @media (max-width: ${({ theme }) => theme.breakpoints.L}) {
+    display: flex;
   }
 
   div {
@@ -65,4 +69,8 @@ export const StyledHamburger = styled.button<{ open: boolean }>`
 export const MobileLink = styled(ListItem)`
   font-size: 24px;
   padding: 20px;
+
+  @media (max-width: ${({ theme }) => theme.breakpoints.mobile}) {
+    font-size: 18px;
+  }
 `;

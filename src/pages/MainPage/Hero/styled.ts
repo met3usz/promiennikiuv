@@ -8,6 +8,10 @@ export const HeroWrapper = styled.div`
   justify-content: center;
   align-items: center;
   gap: 20px;
+
+  @media (max-width: ${({ theme }) => theme.breakpoints.L}) {
+    flex-direction: column;
+  }
 `;
 
 export const HeroLeft = styled.div`
@@ -37,6 +41,10 @@ export const HeroImage = styled.img`
   width: 150%;
   max-width: 1000px;
   height: auto;
+
+  @media (max-width: ${({ theme }) => theme.breakpoints.L}) {
+    width: 80%;
+  }
 `;
 
 export const HeroButton = styled.button`

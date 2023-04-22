@@ -42,7 +42,7 @@ function Contact() {
         <StyledContainer>
           <Content>
             <h1>
-              Jesteś zainteresowany którymś z naszych produktów? Zadzwoń do nas lub zostaw wiadomość!
+              Jesteś zainteresowany którymś z naszych produktów? Zadzwoń do nas lub zostaw wiadomość!
             </h1>
             <h2>Kontakt:</h2>
             <h3>Tel. 606413531</h3>

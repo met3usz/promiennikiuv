@@ -6,8 +6,12 @@ export const StyledContainer = styled(Container)`
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   place-items: center;
-  text-align: center;
   min-height: calc(100vh - 181px);
+
+  @media (max-width: ${({ theme }) => theme.breakpoints.L}) {
+    grid-template-columns: none;
+    grid-template-rows: repeat(2, 1fr);
+  }
 `;
 
 export const Link = styled.a`
@@ -21,9 +25,14 @@ export const Link = styled.a`
 export const Content = styled.div`
   padding: 15px;
   place-self: start;
+
+  @media (max-width: ${({ theme }) => theme.breakpoints.L}) {
+    place-self: center;
+  }
 `;
 
 export const StyledForm = styled.form`
+  margin-bottom: 40px;
   padding: 15px;
   display: flex;
   flex-direction: column;

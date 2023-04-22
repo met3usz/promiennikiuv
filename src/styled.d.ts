@@ -5,6 +5,7 @@ declare module 'styled-components' {
     borderRadius: string;
     breakpoints: {
       mobile: string;
+      L: string;
     };
     color: {
       bgColor: string;

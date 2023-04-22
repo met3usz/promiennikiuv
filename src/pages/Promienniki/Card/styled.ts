@@ -7,6 +7,36 @@ export const CardWrapper = styled.div`
   justify-content: center;
   align-items: center;
   gap: 64px;
+
+  @media (max-width: ${({ theme }) => theme.breakpoints.L}) {
+    flex-direction: column;
+  }
+`;
+
+export const CardWrapperReverse = styled.div`
+  margin: 70px 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 64px;
+
+  @media (max-width: ${({ theme }) => theme.breakpoints.L}) {
+    flex-direction: column-reverse;
+  }
+`;
+
+export const CardWrapperGrid = styled.div`
+  margin: 70px 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 64px;
+
+  @media (max-width: ${({ theme }) => theme.breakpoints.L}) {
+    display: flex;
+  }
 `;
 
 export const CardContent = styled.div`
