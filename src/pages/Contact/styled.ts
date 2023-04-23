@@ -3,14 +3,13 @@ import { Container } from '../../common/Container/styled';
 
 export const StyledContainer = styled(Container)`
   padding: 0 30px;
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  display: flex;
+  flex-direction: row;
   place-items: center;
   min-height: calc(100vh - 181px);
 
   @media (max-width: ${({ theme }) => theme.breakpoints.L}) {
-    grid-template-columns: none;
-    grid-template-rows: repeat(2, 1fr);
+    flex-direction: column;
   }
 `;
 
@@ -29,6 +28,11 @@ export const Content = styled.div`
   @media (max-width: ${({ theme }) => theme.breakpoints.L}) {
     place-self: center;
   }
+`;
+
+export const FormWrapper = styled.div`
+  display: grid;
+  place-content: center;
 `;
 
 export const StyledForm = styled.form`

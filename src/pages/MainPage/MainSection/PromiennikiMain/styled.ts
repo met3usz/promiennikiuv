@@ -12,6 +12,7 @@ export const ContentWrapper = styled.div`
 
   @media (max-width: ${({ theme }) => theme.breakpoints.L}) {
     flex-direction: column;
+    gap: 20px;
   }
 `;
 

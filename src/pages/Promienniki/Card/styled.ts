@@ -56,5 +56,5 @@ export const CardTitle = styled.h3`
 export const CardText = styled.p`
   margin: 0;
   padding: 0;
-  color: ${({ theme }) => theme.color.primaryText};
+  color: ${({ theme }) => theme.color.secondaryText};
 `;

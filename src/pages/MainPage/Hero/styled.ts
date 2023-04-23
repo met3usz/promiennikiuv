@@ -10,7 +10,11 @@ export const HeroWrapper = styled.div`
   gap: 20px;
 
   @media (max-width: ${({ theme }) => theme.breakpoints.L}) {
+    padding-top: 40px;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
   }
 `;
 
@@ -28,6 +32,9 @@ export const HeroTitle = styled.h1`
   margin: 0;
   padding: 0;
   font-size: 52px;
+  @media (max-width: ${({ theme }) => theme.breakpoints.L}) {
+    font-size: 38px;
+  }
 `;
 
 export const HeroText = styled.p`

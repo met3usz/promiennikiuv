@@ -13,7 +13,7 @@ export const NavigationWrapper = styled.nav`
 `;
 
 export const NavigationTitle = styled.p`
-  margin: 0;
+  margin: 0 15px 0 0;
   padding: 0;
   font-weight: 700;
   font-size: 20px;

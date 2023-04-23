@@ -1,22 +1,41 @@
-import { Container } from '../../common/Container/styled';
+import { Tooltip } from '@mui/material';
 import { CardLeft, CardRight } from './Card/Card';
-import { ContentWrapper } from './styled';
+import { ContentWrapper, SectionTitle } from './styled';
+import { Container } from '../../common/Container/styled';
+import Footer from '../../common/Footer/Footer';
 
 import irt1 from '../../img/promienniki/irt1.png';
 import irt2 from '../../img/promienniki/irt2.png';
 import irt3 from '../../img/promienniki/irt3.png';
-import irt4 from '../../img/promienniki/irt4.png';
 import irt5 from '../../img/promienniki/irt5.png';
 import irt6 from '../../img/promienniki/irt6.png';
+import irt7 from '../../img/promienniki/irt7.png';
 import irt8 from '../../img/promienniki/irt8.png';
-import Footer from '../../common/Footer/Footer';
+import irt9 from '../../img/promienniki/irt9.png';
+
+import catalog from '../../img/catalog.svg';
 
 function Promienniki() {
   return (
     <>
       <Container>
         <ContentWrapper>
-          <h2>Zastosowania warsztatowe</h2>
+          <div>
+            <a
+              href="https://drive.google.com/file/d/1b3pOeT7z12_sTC4Kh3oL2PANL7zKse-G/view"
+              target="_blank"
+            >
+              <Tooltip title="Zobacz katalog" arrow placement="top">
+                <img
+                  src={catalog}
+                  alt="Free Catalog Icon by Ibm-design"
+                  width="50px"
+                />
+              </Tooltip>
+            </a>
+          </div>
+          {/* Free Catalog Icon by Ibm-design */}
+          <SectionTitle>Zastosowania warsztatowe</SectionTitle>
           <div>
             <CardLeft
               img={irt1}
@@ -37,7 +56,7 @@ function Promienniki() {
               content="Firma IRT połączyła lata doświadczeń w projektowaniu i produkcji promienników IR i UV z najnowszymi technologiami UV LED. Wszystkie części w urządzeniu są specjalnie zaprojektowane tak, aby zmaksymalizować wydajność i wygodę użytkownika. IRT UV SmartCure to bezprzewodowe, akumulatorowe urządzenie o najwyższej wydajności w kategorii urządzeń przenośnych."
             />
             <CardRight
-              img={irt4}
+              img={irt7}
               imgAlt="IRT UV SPOTCURE2"
               title="IRT UV SPOTCURE2"
               content="3 RAZY MOCNIEJSZY! Nasza najlepiej sprzedająca się gama UV LED rozszerza się o potężny SpotCure². Bezkonkurencyjne połączenie mocy i rozmiaru utwardzania. Przeniesienie bezpieczeństwa obsługi i komfortu użytkownika na nowy poziom. 132 diody LED dużej mocy."
@@ -45,7 +64,21 @@ function Promienniki() {
           </div>
         </ContentWrapper>
         <ContentWrapper>
-          <h2>Zastosowania przemysłowe</h2>
+          <div>
+            <a
+              href="https://drive.google.com/file/d/1RjXO4NH6khHBAwsXPWLa-KAcn8CaHXLQ/view"
+              target="_blank"
+            >
+              <Tooltip title="Zobacz katalog" arrow placement="top">
+                <img
+                  src={catalog}
+                  alt="Free Catalog Icon by Ibm-design"
+                  width="50px"
+                />
+              </Tooltip>
+            </a>
+          </div>
+          <SectionTitle>Zastosowania przemysłowe</SectionTitle>
           <div>
             <CardLeft
               title="IRT Systemy trawersowe"
@@ -62,6 +95,13 @@ function Promienniki() {
             />
 
             <CardLeft
+              img={irt9}
+              imgAlt="IRT SingleHeater"
+              title="IRT SingleHeater"
+              content="Dzięki SingleHeater budujemy proste, precyzyjne, wydajne i kompaktowe promienniki ciepła o niskim zużyciu energii."
+            />
+
+            <CardRight
               img={irt8}
               imgAlt="IRT DTP"
               title="IRT DTP"

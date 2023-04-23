@@ -1,6 +1,7 @@
 import { Container } from '../../common/Container/styled';
 import {
   Content,
+  FormWrapper,
   Link,
   Star,
   StyledButton,
@@ -37,46 +38,66 @@ const Contact = () => {
               </Link>
             </h3>
           </Content>
-          <StyledForm
-            ref={() => {
-              form;
-            }}
-            onSubmit={(e: React.SyntheticEvent) => {
-              e.preventDefault();
-              emailjs.sendForm(SERVICE_ID, TEMPLATE_ID, '#form', USER_ID).then(
-                (result) => {
-                  console.log(result.text);
-                  Swal.fire({
-                    icon: 'success',
-                    title: 'Twoja wiadomość została wysłana!',
-                  });
-                },
-                (error) => {
-                  console.log(error.text);
-                  Swal.fire({
-                    icon: 'error',
-                    title: 'Coś poszło nie tak!',
-                    text: 'Nie udało się wysłać Twojej wiadomości. Spróbuj ponownie później!',
-                  });
-                }
-              );
-            }}
-            id="form"
-          >
-            <label>
-              Imię<Star>*</Star>
-            </label>
-            <StyledInput type="text" name="user_name" placeholder="Imię" />
-            <label>
-              Email<Star>*</Star>
-            </label>
-            <StyledInput type="email" name="user_email" placeholder="Email" />
-            <label>
-              Wiadomość<Star>*</Star>
-            </label>
-            <textarea name="message" rows={10} cols={30} />
-            <StyledButton type="submit" value="Wyślij!" />
-          </StyledForm>
+          <FormWrapper>
+            <StyledForm
+              ref={() => {
+                form;
+              }}
+              onSubmit={(e: React.SyntheticEvent) => {
+                e.preventDefault();
+                emailjs
+                  .sendForm(SERVICE_ID, TEMPLATE_ID, '#form', USER_ID)
+                  .then(
+                    (result) => {
+                      console.log(result.text);
+                      Swal.fire({
+                        icon: 'success',
+                        title: 'Twoja wiadomość została wysłana!',
+                      });
+                    },
+                    (error) => {
+                      console.log(error.text);
+                      Swal.fire({
+                        icon: 'error',
+                        title: 'Coś poszło nie tak!',
+                        text: 'Nie udało się wysłać Twojej wiadomości. Spróbuj ponownie później!',
+                      });
+                    }
+                  );
+              }}
+              id="form"
+            >
+              <label>
+                Imię<Star>*</Star>
+              </label>
+              <StyledInput
+                type="text"
+                name="user_name"
+                placeholder="Imię"
+                required
+              />
+              <label>
+                Email<Star>*</Star>
+              </label>
+              <StyledInput
+                type="email"
+                name="user_email"
+                placeholder="Email"
+                required
+              />
+              <label>
+                Wiadomość<Star>*</Star>
+              </label>
+              <textarea
+                name="message"
+                rows={10}
+                cols={30}
+                placeholder="Napisz wiadomość!"
+                required
+              />
+              <StyledButton type="submit" value="Wyślij!" />
+            </StyledForm>
+          </FormWrapper>
         </StyledContainer>
       </Container>
       <Footer />

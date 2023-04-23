@@ -6,6 +6,18 @@ export const ContentWrapper = styled.div`
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  gap: 30px;
+  @media (max-width: ${({ theme }) => theme.breakpoints.L}) {
+    padding-top: 25px;
+  }
+`;
+
+export const Content = styled.p`
+  color: ${({ theme }) => theme.color.secondaryText};
+`;
+
+export const List = styled.ul`
+  color: ${({ theme }) => theme.color.secondaryText};
 `;
 
 export const Images = styled.div`
