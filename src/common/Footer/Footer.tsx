@@ -5,7 +5,7 @@ function Footer() {
   return (
     <StyledFooter>
       <h4>
-        <Link href="https://bit.ly/rekomendacja-producenta">
+        <Link target="_blank" href="https://bit.ly/rekomendacja-producenta">
           Rekomendacja producenta
         </Link>
       </h4>
