@@ -1,9 +1,14 @@
+import { Link } from '../../pages/Contact/styled';
 import { StyledFooter } from './styled';
 
 function Footer() {
   return (
     <StyledFooter>
-      <h4>I'm a Footer!</h4>
+      <h4>
+        <Link href="https://bit.ly/rekomendacja-producenta">
+          Rekomendacja producenta
+        </Link>
+      </h4>
     </StyledFooter>
   );
 }
