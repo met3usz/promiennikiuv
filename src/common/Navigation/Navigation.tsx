@@ -1,4 +1,3 @@
-import Menu from '../Menu/Menu';
 import {
   ListItem,
   NavigationList,
@@ -10,7 +9,6 @@ export function Navigation() {
   return (
     <NavigationWrapper>
       <NavigationTitle>Sprzedaż, Serwis, Doradztwo Techniczne</NavigationTitle>
-      <Menu />
       <NavigationList>
         <ListItem to="/">Start</ListItem>
         <ListItem to="/promienniki">Promienniki IRT</ListItem>

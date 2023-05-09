@@ -1,14 +1,28 @@
-import { Link } from '../../pages/Contact/styled';
-import { StyledFooter } from './styled';
+import {
+  Copyright,
+  Name,
+  StyledFooter,
+  StyledLink,
+  StyledName,
+} from './styled';
 
 function Footer() {
   return (
     <StyledFooter>
-      <h4>
-        <Link target="_blank" href="https://bit.ly/rekomendacja-producenta">
+      <Name>
+        <StyledName>Wojciech Gocek</StyledName>
+        <StyledLink
+          target="_blank"
+          href="https://bit.ly/rekomendacja-producenta"
+        >
           Rekomendacja producenta
-        </Link>
-      </h4>
+        </StyledLink>
+      </Name>
+      <Copyright>
+        <p>
+          <span>&#169;</span> promiennikuv.pl | Wszelkie prawa zastrzeżone
+        </p>
+      </Copyright>
     </StyledFooter>
   );
 }

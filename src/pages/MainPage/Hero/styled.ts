@@ -31,7 +31,7 @@ export const HeroLeft = styled.div`
 export const HeroTitle = styled.h1`
   margin: 0;
   padding: 0;
-  font-size: 52px;
+  font-size: 32px;
   @media (max-width: ${({ theme }) => theme.breakpoints.L}) {
     font-size: 38px;
   }
