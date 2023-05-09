@@ -37,7 +37,7 @@ export function MyjnieMain(props: MyjnieProps) {
             (Drester Aquasolve)
           </ListItem>
         </ContentList>
-        <Link to="myjnie">
+        <Link to="/myjnie">
           <ContentRightButton>Zobacz więcej!</ContentRightButton>
         </Link>
       </Content>

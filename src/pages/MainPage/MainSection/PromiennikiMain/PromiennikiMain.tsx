@@ -33,7 +33,7 @@ export function PromiennikiMain(props: PromiennikiProps) {
           <ListItem>niskie zużycie energii elektrycznej</ListItem>
           <ListItem>przyjazne dla środowiska</ListItem>
         </ContentList>
-        <Link to="promienniki">
+        <Link to="/promienniki">
           <ContentLeftButton>Zobacz więcej!</ContentLeftButton>
         </Link>
       </Content>
