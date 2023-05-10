@@ -1,4 +1,4 @@
-import { Nav, Navbar } from 'react-bootstrap';
+import { Container, Navbar } from 'react-bootstrap';
 import styled from 'styled-components';
 
 export const NavigationWrapper = styled(Navbar)`
@@ -21,4 +21,9 @@ export const NavigationTitle = styled.p`
   padding: 0;
   font-weight: 700;
   font-size: 20px;
+`;
+
+export const StyledContainer = styled(Container)`
+  justify-content: center !important;
+  gap: 20px !important;
 `;

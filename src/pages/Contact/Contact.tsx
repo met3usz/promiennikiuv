@@ -13,10 +13,7 @@ import Footer from '../../common/Footer/Footer';
 import { useRef } from 'react';
 import emailjs from '@emailjs/browser';
 import Swal from 'sweetalert2';
-
-const SERVICE_ID = 'service_zxnetq2';
-const TEMPLATE_ID = 'template_u73ruic';
-const USER_ID = '1Hz09AIsj_stKXoOG';
+import { SERVICE_ID, TEMPLATE_ID, USER_ID } from '../../emailJScredentials';
 
 const Contact = () => {
   const form = useRef();

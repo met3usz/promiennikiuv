@@ -1,6 +1,6 @@
-import { Container, Nav, Navbar } from 'react-bootstrap';
+import { Nav, Navbar } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
-import { NavigationTitle, NavigationWrapper } from './styled';
+import { NavigationTitle, NavigationWrapper, StyledContainer } from './styled';
 
 export function Navigation() {
   // return (
@@ -17,7 +17,7 @@ export function Navigation() {
 
   return (
     <NavigationWrapper collapseOnSelect expand="lg">
-      <Container>
+      <StyledContainer>
         <NavigationTitle>
           Sprzedaż, Serwis, Doradztwo Techniczne
         </NavigationTitle>
@@ -39,7 +39,7 @@ export function Navigation() {
             </Nav.Link>
           </Nav>
         </Navbar.Collapse>
-      </Container>
+      </StyledContainer>
     </NavigationWrapper>
   );
 }

@@ -2,7 +2,7 @@ import styled from 'styled-components';
 
 export const HeroWrapper = styled.div`
   margin: 0;
-  padding: 90px 30px;
+  padding: 50px 30px;
   display: flex;
   flex-direction: row;
   justify-content: center;
