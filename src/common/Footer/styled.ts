@@ -19,6 +19,10 @@ export const StyledLink = styled.a`
 
 export const Name = styled.div`
   text-align: right;
+
+  @media (max-width: 600px) {
+    text-align: center;
+  }
 `;
 
 export const StyledName = styled.p`
