@@ -103,7 +103,3 @@ const Contact = () => {
 };
 
 export default Contact;
-
-// Kontakt:
-// Tel. 606413531
-// kontakt@promiennikuv.pl

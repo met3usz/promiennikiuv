@@ -10,7 +10,6 @@ import {
   CardText,
   CardTitle,
   CardWrapper,
-  CardWrapperGrid,
   CardWrapperReverse,
 } from './styled';
 

@@ -3,18 +3,6 @@ import { Link } from 'react-router-dom';
 import { NavigationTitle, NavigationWrapper, StyledContainer } from './styled';
 
 export function Navigation() {
-  // return (
-  //   <NavigationWrapper>
-  //     <NavigationTitle>Sprzedaż, Serwis, Doradztwo Techniczne</NavigationTitle>
-  //     <NavigationList>
-  //       < to="/">Start</>
-  //       < to="/promienniki">Promienniki IRT</>
-  //       < to="/myjnie">Myjnie DRESTER</>
-  //       < to="/kontakt">Kontakt</>
-  //     </NavigationList>
-  //   </NavigationWrapper>
-  // );
-
   return (
     <NavigationWrapper collapseOnSelect expand="lg">
       <StyledContainer>
