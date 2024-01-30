@@ -67,3 +67,7 @@ export const StyledButton = styled.input`
     background-color: #9776f5;
   }
 `;
+
+export const StyledTextArea = styled.textarea`
+  padding: 10px;
+`;

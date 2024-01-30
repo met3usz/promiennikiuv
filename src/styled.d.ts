@@ -15,6 +15,7 @@ declare module 'styled-components' {
       secondaryText: string;
       primaryText: string;
       link: string;
+      headerNew: string;
     };
   }
 }

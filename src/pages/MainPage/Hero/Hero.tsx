@@ -28,7 +28,7 @@ export function Hero({ HeroImg }: HeroProps) {
         </Link>
       </HeroLeft>
 
-      <HeroImage src={HeroImg} />
+      <HeroImage src={HeroImg} alt="Hero Image" />
     </HeroWrapper>
   );
 }

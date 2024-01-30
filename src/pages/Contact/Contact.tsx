@@ -8,6 +8,7 @@ import {
   StyledContainer,
   StyledForm,
   StyledInput,
+  StyledTextArea,
 } from './styled';
 import Footer from '../../common/Footer/Footer';
 import { useRef } from 'react';
@@ -28,7 +29,7 @@ const Contact = () => {
               lub zostaw wiadomość!
             </h1>
             <h2>Kontakt:</h2>
-            <h3>Tel. 606413531</h3>
+            <h3>Tel. 606 413 531</h3>
             <h3>
               <Link href="mailto:kontakt@promiennikuv.pl">
                 kontakt@promiennikuv.pl
@@ -85,7 +86,7 @@ const Contact = () => {
               <label>
                 Wiadomość<Star>*</Star>
               </label>
-              <textarea
+              <StyledTextArea
                 name="message"
                 rows={10}
                 cols={30}

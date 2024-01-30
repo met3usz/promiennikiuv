@@ -11,6 +11,7 @@ function Footer() {
     <StyledFooter>
       <Name>
         <StyledName>Wojciech Gocek</StyledName>
+        <StyledName>Tel. 606 413 531</StyledName>
         <StyledLink
           target="_blank"
           href="https://bit.ly/rekomendacja-producenta"

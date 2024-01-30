@@ -4,17 +4,28 @@ import { Container } from '../../common/Container/styled';
 import { Image } from '../../common/Image/styled';
 import Footer from '../../common/Footer/Footer';
 
-import dres1 from '../../img/myjnie/drester_gun-cleaner_boxer-quattro_combo_di44c_1000x1000.png';
+import dres1 from '../../img/myjnie/test-DoubleS-1000x640-1.jpg';
 import dres2 from '../../img/myjnie/gc_classic-3600_1000x1000.png';
 import dres3 from '../../img/myjnie/gc_dc11_1000x1000.png';
 import dres4 from '../../img/myjnie/gc_dix11M_1000x1000.png';
 
 import catalog from '../../img/catalog.svg';
+import { StyledHeader } from '../../common/StyledHeader/styled';
+import { Link } from '../Myjnie/styled';
 
 function Myjnie() {
   return (
     <>
       <Container>
+        <StyledHeader>
+          Nowość! Seria Boxer została zastąpiona serią Ace! Zobacz najnowszy{' '}
+          <Link
+            href="https://drive.google.com/file/d/1VFgyAssB04-SI2vEyHu8ll4GxxdBN57K/view?usp=sharing"
+            target="_blank"
+          >
+            katalog
+          </Link>
+        </StyledHeader>
         <ContentWrapper>
           <div>
             <a
@@ -44,19 +55,19 @@ function Myjnie() {
               lakierniczych. Drester nadal podnosi poprzeczkę, a wszystkie
               myjnie zapewniają niezrównaną jakość i wydajność. Po dokładnych
               badaniach Drester zaoferował dwie serie urządzeń myjących
-              pistolety lakiernicze; nową serię Boxer i klasyczną serię. Seria
-              Boxer zaprojektowana została z myślą zaspokojenia wszystkich
-              potrzeb wymagających klientów. Seria myjni klasycznych od wielu
-              lat cieszy się uznaniem klientów na całym świecie. Po więcej
-              informacji zapraszam do kontaktu.
+              pistolety lakiernicze; nową serię Ace i klasyczną serię. Seria Ace
+              zaprojektowana została z myślą zaspokojenia wszystkich potrzeb
+              wymagających klientów. Seria myjni klasycznych od wielu lat cieszy
+              się uznaniem klientów na całym świecie. Po więcej informacji
+              zapraszam do kontaktu.
             </Content>
             <Content>
               Firma Hedson Technologies AB jest producentem myjni pistoletów
-              lakierniczych Drester serii Boxer. Seria Boxer oferuje myjnie
+              lakierniczych Drester serii Ace. Seria Ace oferuje myjnie
               wytrzymałe i uniwersalne, proste w obsłudze, zapewniające jeszcze
-              lepsze i wydajniejsze mycie pistoletów lakierniczych. Modele Boxer
+              lepsze i wydajniejsze mycie pistoletów lakierniczych. Modele Ace
               występują w dwóch rozmiarach kompaktowym i pełnowymiarowym,
-              zapewniającym dogodne warunki pracy w lakierni każdego dnia. Boxer
+              zapewniającym dogodne warunki pracy w lakierni każdego dnia. Ace
               oferuje modele dla wszystkich potrzeb warsztatu lakierniczego :
             </Content>
             <List>

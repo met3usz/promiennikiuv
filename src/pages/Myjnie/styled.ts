@@ -26,3 +26,15 @@ export const Images = styled.div`
   grid-template-rows: repeat(2, 1fr);
   place-items: center;
 `;
+
+export const Link = styled.a`
+  color: ${({ theme }) => theme.color.headerNew};
+
+  &:hover {
+    color: #d65351;
+  }
+
+  &:active {
+    color: #9776f5;
+  }
+`;

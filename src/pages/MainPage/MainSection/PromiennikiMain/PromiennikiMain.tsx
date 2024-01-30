@@ -37,7 +37,7 @@ export function PromiennikiMain(props: PromiennikiProps) {
           <ContentLeftButton>Zobacz więcej!</ContentLeftButton>
         </Link>
       </Content>
-      <MainImage src={props.promiennikiImg} />
+      <MainImage src={props.promiennikiImg} alt="Promienniki Alt" />
     </ContentWrapper>
   );
 }

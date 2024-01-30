@@ -17,16 +17,16 @@ import { Link } from 'react-router-dom';
 export function MyjnieMain(props: MyjnieProps) {
   return (
     <ContentWrapper>
-      <MainImage src={props.myjnieImg} />
+      <MainImage src={props.myjnieImg} alt="Myjnie Alt" />
       <Content>
         <ContentRightTitle>
           Myjnie pistoletów lakierniczych DRESTER
         </ContentRightTitle>
         <ContentText>
           Firma Hedson Technologies AB jest producentem myjni pistoletów
-          lakierniczych Drester serii Boxer. Seria Boxer oferuje myjnie
-          wytrzymałe i uniwersalne, proste w obsłudze, zapewniające jeszcze
-          lepsze i wydajniejsze mycie pistoletów lakierniczych.
+          lakierniczych Drester serii Ace. Seria Ace oferuje myjnie wytrzymałe i
+          uniwersalne, proste w obsłudze, zapewniające jeszcze lepsze i
+          wydajniejsze mycie pistoletów lakierniczych.
         </ContentText>
         <ContentList>
           <ListItem>

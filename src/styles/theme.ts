@@ -14,6 +14,7 @@ const theme = {
     secondaryText: '#595959',
     primaryText: '#000000',
     link: '#8176DE',
+    headerNew: '#DD3937',
   },
 };
 
