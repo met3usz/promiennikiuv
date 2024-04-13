@@ -29,7 +29,7 @@ function Myjnie() {
         <ContentWrapper>
           <div>
             <a
-              href="https://drive.google.com/file/d/18k0faeBjgLJDXNcl688RgwbjaNKLhK9Q/view"
+              href="https://drive.google.com/file/d/1VFgyAssB04-SI2vEyHu8ll4GxxdBN57K/view?usp=sharing"
               target="_blank"
             >
               <Tooltip title="Zobacz katalog" arrow placement="top">

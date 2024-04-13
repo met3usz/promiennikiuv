@@ -6,12 +6,15 @@ import {
   StyledName,
 } from './styled';
 
+import { Link } from '../../pages/Contact/styled';
+
 function Footer() {
   return (
     <StyledFooter>
       <Name>
-        <StyledName>Wojciech Gocek</StyledName>
+        <StyledName>Studio Kreation</StyledName>
         <StyledName>Tel. 606 413 531</StyledName>
+        <Link>gocekwojciech@gmail.com</Link>
         <StyledLink
           target="_blank"
           href="https://bit.ly/rekomendacja-producenta"

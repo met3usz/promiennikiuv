@@ -18,6 +18,8 @@ export const StyledLink = styled.a`
 `;
 
 export const Name = styled.div`
+  display: flex;
+  flex-direction: column;
   text-align: right;
 
   @media (max-width: 600px) {
