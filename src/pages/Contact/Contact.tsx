@@ -14,11 +14,11 @@ const Contact = () => {
             </h1>
             <ContactContainer>
               <h2>Tel. 606 413 531</h2>
-              <h2>
+              <h3>
                 <Link href="mailto:gocekwojciech@gmail.com">
                   gocekwojciech@gmail.com
                 </Link>
-              </h2>
+              </h3>
             </ContactContainer>
           </Content>
         </StyledContainer>

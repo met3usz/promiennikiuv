@@ -6,7 +6,7 @@ export const StyledContainer = styled(Container)`
   display: flex;
   flex-direction: row;
   place-items: center;
-  min-height: calc(100vh - 252px);
+  min-height: calc(100vh - (80px + 154px));
 
   @media (max-width: ${({ theme }) => theme.breakpoints.L}) {
     flex-direction: column;

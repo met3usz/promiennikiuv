@@ -4,7 +4,6 @@ export const StyledFooter = styled.footer`
   font-size: 14px;
   padding: 10px;
   padding-right: 25px;
-  min-height: 50px;
   box-shadow: 0px -4px 4px rgba(0, 0, 0, 0.25);
 `;
 
@@ -33,7 +32,7 @@ export const StyledName = styled.p`
 `;
 
 export const Copyright = styled.div`
-  margin-top: 25px;
+  margin-top: 10px;
   text-align: center;
   font-size: 12px;
 `;
