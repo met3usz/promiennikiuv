@@ -19,19 +19,13 @@ function Myjnie() {
       <Container>
         <StyledHeader>
           Nowość! Seria Boxer została zastąpiona serią Ace! Zobacz najnowszy{' '}
-          <Link
-            href="https://drive.google.com/file/d/1VFgyAssB04-SI2vEyHu8ll4GxxdBN57K/view?usp=sharing"
-            target="_blank"
-          >
+          <Link href="https://bit.ly/40ahWhb" target="_blank">
             katalog
           </Link>
         </StyledHeader>
         <ContentWrapper>
           <div>
-            <a
-              href="https://drive.google.com/file/d/1VFgyAssB04-SI2vEyHu8ll4GxxdBN57K/view?usp=sharing"
-              target="_blank"
-            >
+            <a href="https://bit.ly/40ahWhb" target="_blank">
               <Tooltip title="Zobacz katalog" arrow placement="top">
                 <img
                   src={catalog}

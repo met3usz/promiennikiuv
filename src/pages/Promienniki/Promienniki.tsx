@@ -21,10 +21,7 @@ function Promienniki() {
       <Container>
         <ContentWrapper>
           <div>
-            <a
-              href="https://drive.google.com/file/d/1b3pOeT7z12_sTC4Kh3oL2PANL7zKse-G/view"
-              target="_blank"
-            >
+            <a href="https://bit.ly/3UjTQNe" target="_blank">
               <Tooltip title="Zobacz katalog" arrow placement="top">
                 <img
                   src={catalog}

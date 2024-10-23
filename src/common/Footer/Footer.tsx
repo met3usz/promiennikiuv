@@ -14,11 +14,10 @@ function Footer() {
       <Name>
         <StyledName>Studio Kreation</StyledName>
         <StyledName>Tel. 606 413 531</StyledName>
-        <Link>gocekwojciech@gmail.com</Link>
-        <StyledLink
-          target="_blank"
-          href="https://bit.ly/rekomendacja-producenta"
-        >
+        <Link href="mailto:gocekwojciech@gmail.com">
+          gocekwojciech@gmail.com
+        </Link>
+        <StyledLink target="_blank" href="https://bit.ly/3YePOXv">
           Rekomendacja producenta
         </StyledLink>
       </Name>
